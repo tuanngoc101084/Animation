@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:id="@+id/View_alpha"
+      android:layout_width="78dp"
+      android:layout_height="72dp"
+      android:layout_centerInParent="true"
+      android:src="@drawable/icon_star">
+</ImageView>
+<!--  <ImageView-->
+<!--      android:layout_below="@id/Scale_1"-->
+<!--      android:id="@+id/Scale_2"-->
+<!--      android:layout_centerHorizontal="true"-->
+<!--      android:layout_width="78dp"-->
+<!--      android:layout_height="72dp"-->
+<!--      android:layout_centerInParent="true"-->
+<!--      android:layout_marginTop="5dp"-->
+<!--      android:scaleType="centerInside"-->
+<!--      android:src="@drawable/grab2">-->
+<!--  </ImageView>-->
+<!--  <ImageView-->
+<!--      android:layout_centerInParent="true"-->
+<!--      android:id="@+id/Scale_1"-->
+<!--      android:layout_width="80dp"-->
+<!--      android:layout_height="80dp"-->
+<!--      android:scaleType="centerInside"-->
+<!--      android:src="@drawable/grab1">-->
+<!--  </ImageView>-->
+</RelativeLayout>
